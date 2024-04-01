@@ -53,7 +53,7 @@ const LINKS = [
 
 export default function Page(): JSX.Element {
   return (
-    <main className={styles.main}>
+    <main className="bg-slate-500">
       <div className={styles.description}>
         <p>
           examples/basic&nbsp;
@@ -68,7 +68,7 @@ export default function Page(): JSX.Element {
             By{" "}
             <Image
               alt="Vercel Logo"
-              className={styles.vercelLogo}
+              className="bg-slate-50"
               height={24}
               priority
               src="/vercel.svg"
